@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Lato:wght@300;400&display=swap");
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  color: #dee2e6;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+#navbar {
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+nav a:hover {
+  color: #000000;
+}
+
+* {
+  background-color: rgb(44, 42, 42);
+  color: #c4c4c4;
+}
+
+#name {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.heading1 {
+  text-align: center;
+  font-family: "Antic Didone", serif;
+  font-size: 69px;
+}
+
+@media print {
+  body {
+    display: none;
+  }
+}

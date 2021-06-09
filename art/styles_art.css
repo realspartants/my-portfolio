@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Lato:wght@300;400&display=swap");
+
+/* Text */
+#work_my {
+  font-family: "Antic Didone", serif;
+  text-align: center;
+  font-size: 39px;
+}
+/* Text */
+
+/* Image Links */
+.img {
+  height: 270px;
+  width: 331px;
+  
+}
+
+#img1 {
+    position: relative;
+    left: 12vw;
+    bottom: 0vh;
+}
+
+#img2 {
+    position: relative;
+    left: 37vw;
+    bottom: -2vh;
+}
+
+#img3 {
+    position: relative;
+    left: -31.5vw;
+    bottom: -48vh;
+}
+
+#img4 {
+    position: relative;
+    left: -6.5vw;
+    bottom: -48vh;
+}
+/* Image Links */
