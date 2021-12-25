@@ -1,36 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Lato:wght@300;400&display=swap");
 
 p {
-  font-family: "Lato";
-  font-weight: 300;
-  text-align: justify;
-  font-size: 17px;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: justify;
+	font-size: 17px;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 #content {
-  box-shadow: 12px 0 12px -12px rgba(0, 0, 0, 0.8),
-    -12px 0 12px -12px rgba(0, 0, 0, 0.8);
-  padding-top: 15px;
-  padding-left: 40px;
-  padding-bottom: 15px;
-  padding-right: 40px;
-  margin-left: 180px;
-  margin-right: 180px;
-  border-radius: 40px;
-  color: #1a1a1a;
+	width: 70%;
+	box-shadow: 12px 0 12px -12px rgba(0, 0, 0, 0.8), -12px 0 12px -12px rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	/* padding-top: 15px;
+	padding-left: 40px;
+	padding-bottom: 15px;
+	padding-right: 40px;
+	margin-left: 180px;
+	margin-right: 180px; */
+	border-radius: 40px;
+	color: #1a1a1a;
 }
 
 /* Buttton for "my work" */
 #art_html {
-  font-size: 36px;
-  text-decoration: none;
-  padding: 10px;
-  background: #666360;
-  color: rgb(44, 42, 42);
-  border-radius: 7px;
+	font-size: 36px;
+	text-decoration: none;
+	padding: 10px;
+	background: #666360;
+	color: rgb(44, 42, 42);
+	border-radius: 7px;
 }
 
 #art_html:hover {
-  color: rgb(44, 42, 42);
+	color: rgb(44, 42, 42);
 }
 /* Buttton for "my work" */
